@@ -5,7 +5,7 @@ For this game, you will pick an older game (think from the 8 and 16-bit eras).  
 
 
 
-Must use object-oriented C++.  Separate your classes into separate files.
+- Must use object-oriented C++.  Separate your classes into separate files.
 - Use SDL_image for sprites and other image needs.
 - You perform all "physics" calculations yourself without a physics engine.
 - Use miniaudio for sounds and/or music.
@@ -19,7 +19,7 @@ This will not be easy.  Most of you haven't used C++ before.  Until you get comf
 
 
 
-Design Considerations
+**Design Considerations**
 The wrong design can doom a project.  Make sure you are sticking to design patterns from the book linked on our resources page.  Groups should decide *before anyone starts conding* what the coding standards are.  You should also be sure you have common classes abstracted out.  Don't have one group member create a Koopa and a different one a Goomba without ensuring that both will work exactly the same way.  A better idea would be to create an "Enemy" class with all the common code.
 
 
@@ -28,7 +28,7 @@ I am not going to force a particular design upon you. However, keep in mind that
 
 
 
-Game are meant to be played
+Games are meant to be played
 We will play each other's games in class.  Be sure your game is playable and all game-ending bugs are fixed.  We will also be evaluating each other's designs.
 
 
